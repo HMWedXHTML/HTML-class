@@ -1,2 +1,71 @@
-# HTML-class
-Sites for W3C HTML class
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Blank Standard HTML5 Web App Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+<h1>Banana Bread Recipe</h1>
+    <p>Note that measuring units and temperatures use the <strong>British Imperial</strong> (non-metric) system.</p>
+<h3>Kitchen gadgets / tools needed</h3>
+    <ul>
+    <li>Electric or gas oven</li>
+    <li>Electric blender</li>
+    <li>Electric mixer</li>
+    <li>Large mixing bowl</li>
+    <li>Baking pan approx 10 (len) by 6 (wid) by 3 (dep) inches</li>
+    <li>Cup measures from 1/4 cup to one cup</li>
+    <li>Spoon measures from 1/4 teaspoon to one teaspoon</li>
+    <li>Flexible spatula and dull kitchen knife</li>
+    </ul>
+<h3>Ingredients</h3>
+    <ul>
+    <li>One cup granulated sugar</li>
+    <li>1/2 cup vegetable shortening</li>
+    <li>Three ripe bananas</li>
+    <li>Two medium eggs</li>
+    <li>Two cups sifted, unbleached flour</li>
+    <li>One teaspoon soda</li>
+    <li>One teaspoon baking powder</li>
+    <li>1/2 teaspoon salt</li>
+    <li>One teaspoon liquid vanilla extract (may be artificial)</li>
+    <li>1/2 cup nuts (optional)</li>
+    <li>Spray-on non-stick aerosol such as Pam</li>
+    </ul>
+<h3>Preparation</h3>
+    <ol>
+    <p>Note - the spatula should be used to ensure that all liquid ingredients are fully added to the mixing bowl and baking pan.</p>
+    <li>Pour sugar and shortening into mixing bowl and mix with electric mixer until mixture is moderately uniform</li>
+    <li>In blender, puree bananas until fairly liquid, then pour into mixing bowl</li>
+    <li>Break two eggs (minus the eggshells) into the mixing bowl and mix with electric mixer until mixture is moderately uniform</li>
+    <li>Begin preheating oven to 325 degrees Fahrenheit</li>
+    <li>Pour two cups of flour into mixing bowl, and mix with electric mixer until mixture is moderately uniform</li>
+    <li>Pour soda, baking powder, salt, vanilla (and nuts if desired) into mixing bowl and mix with electric mixer until mixture is quite uniform</li>
+    <li>Spray baking pan with non-stick aerosol</li>
+    <li>Pour mixture from mixing bowl into baking pan</li>
+    <li>Place baking pan into oven and bake for one hour</li>
+    <li>Test for &quot;done-ness&quot; after baking by inserting a round toothpick into the baked loaf - if part of the loaf adheres to the toothpick, bake for another few minutes and retest</li>
+    <li>Leave loaf in pan until cool, then remove the loaf with a dull kitchen knife</li>
+    <li>Cut banana bread loaf into slices and serve with butter or margarine</li>
+    </ol>
+</body>
+</html>
+
